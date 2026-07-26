@@ -35,7 +35,7 @@ through `output/slide_06.png`.
 }
 ```
 
-- `pillar` must be one of `latinoamerica`, `forbidden-history`, `lost-civilizations`, `god-power`. It selects the single shared background for all 6 slides: `backgrounds/{pillar}.jpeg`.
+- `pillar` must be one of `latin-america`, `forbidden-history`, `lost-civilizations`, `god-power` — same slugs as the article system's pillar enum, one vocabulary across both. It selects the single shared background for all 6 slides: `backgrounds/{pillar}.jpeg`.
 - `slides` must be exactly 6 items, roles in this exact fixed order (`render.js` enforces the order, not just the count).
 - Every slide's `headline` and `body` must be non-empty strings. `render.js` validates the whole deck before rendering anything and `process.exit(1)`s with a specific message on any violation — it never writes a partial/broken deck.
 - `source` is optional per slide (shown small, bottom-left footer) — omit or leave blank if not applicable.
