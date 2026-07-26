@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>The Velatium Slide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0A0A0A; }
+
+  .slide {
+    width: 1080px;
+    height: 1350px;
+    position: relative;
+    overflow: hidden;
+    background-color: #0A0A0A;
+    {{BACKGROUND_STYLE}}
+    font-family: 'Lato', sans-serif;
+    color: #E8E0D0;
+  }
+
+  .scrim {
+    position: absolute; inset: 0;
+    background: linear-gradient(180deg,
+      rgba(10,10,10,0.88) 0%, rgba(10,10,10,0.58) 22%,
+      rgba(10,10,10,0.32) 42%, rgba(10,10,10,0.32) 64%,
+      rgba(10,10,10,0.62) 82%, rgba(10,10,10,0.92) 100%);
+  }
+  .grain { position: absolute; inset: 0; opacity: 0.05; mix-blend-mode: overlay; pointer-events: none; }
+  .vignette { position: absolute; inset: 0; box-shadow: inset 0 0 260px 90px rgba(0,0,0,0.55); pointer-events: none; }
+
+  .eyebrow {
+    position: absolute; top: 64px; left: 64px; right: 64px;
+    display: flex; align-items: center; justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px; letter-spacing: 0.16em; text-transform: uppercase;
+  }
+  .eyebrow-left { display: flex; align-items: center; gap: 12px; color: rgba(232,224,208,0.6); }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: #C8A951; box-shadow: 0 0 10px 2px rgba(200,169,81,0.6); }
+  .eyebrow-right { color: #C8A951; }
+
+  .body-content {
+    position: absolute; top: 220px; left: 0; right: 0; bottom: 170px;
+    display: flex; flex-direction: column; justify-content: center;
+    padding: 0 64px;
+  }
+
+  .headline {
+    font-family: 'Cinzel', serif; font-weight: 600; font-size: 58px; line-height: 1.28;
+    color: #C8A951; text-shadow: 0 0 60px rgba(0,0,0,0.85), 0 0 40px rgba(200,169,81,0.25);
+    margin-bottom: 56px;
+  }
+  .divider { width: 90px; height: 2px; background: #C8A951; margin-bottom: 40px; opacity: 0.7; }
+  .body-text {
+    font-family: 'Lato', sans-serif; font-weight: 400; font-size: 32px; line-height: 1.5;
+    color: rgba(232,224,208,0.92); text-shadow: 0 2px 12px rgba(0,0,0,0.6);
+  }
+
+  .footer {
+    position: absolute; bottom: 60px; left: 64px; right: 64px;
+    display: flex; align-items: center; justify-content: space-between;
+    font-family: 'Lato', sans-serif; font-size: 16px; letter-spacing: 0.1em; text-transform: uppercase;
+  }
+  .source { color: rgba(232,224,208,0.5); }
+  .wordmark { color: #C8A951; font-weight: 700; letter-spacing: 0.2em; }
+</style>
+</head>
+<body>
+
+<div class="slide">
+  <div class="scrim"></div>
+  <svg class="grain" width="100%" height="100%">
+    <filter id="n"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/></filter>
+    <rect width="100%" height="100%" filter="url(#n)"/>
+  </svg>
+
+  <div class="eyebrow">
+    <div class="eyebrow-left"><span class="dot"></span>The Velatium · {{ROLE}}</div>
+    <div class="eyebrow-right">{{INDEX}} / {{TOTAL}}</div>
+  </div>
+
+  <div class="body-content">
+    {{BODY}}
+  </div>
+
+  <div class="vignette"></div>
+
+  <div class="footer">
+    <div class="source">{{SOURCE}}</div>
+    <div class="wordmark">The Velatium</div>
+  </div>
+</div>
+
+</body>
+</html>
