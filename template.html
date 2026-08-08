@@ -21,50 +21,83 @@
     color: #E8E0D0;
   }
 
+  /* SLIDES-TYPOGRAPHY-SPEC.md §3: strengthened vs. the original gradient
+     (mid-band raised 0.32->0.46) -- the flat 0.32 mid-band let light
+     pillar backgrounds (latin-america, forbidden-history) show through
+     under body text. Bottom-weighted, unchanged in shape otherwise. */
   .scrim {
     position: absolute; inset: 0;
     background: linear-gradient(180deg,
-      rgba(10,10,10,0.88) 0%, rgba(10,10,10,0.58) 22%,
-      rgba(10,10,10,0.32) 42%, rgba(10,10,10,0.32) 64%,
-      rgba(10,10,10,0.62) 82%, rgba(10,10,10,0.92) 100%);
+      rgba(10,10,10,0.90) 0%, rgba(10,10,10,0.66) 20%,
+      rgba(10,10,10,0.46) 40%, rgba(10,10,10,0.46) 66%,
+      rgba(10,10,10,0.70) 84%, rgba(10,10,10,0.94) 100%);
   }
   .grain { position: absolute; inset: 0; opacity: 0.05; mix-blend-mode: overlay; pointer-events: none; }
   .vignette { position: absolute; inset: 0; box-shadow: inset 0 0 260px 90px rgba(0,0,0,0.55); pointer-events: none; }
 
+  /* SLIDES-TYPOGRAPHY-SPEC.md §2: eyebrow/counter/footer kept in their
+     existing positions and relative relationship to each other, sizes
+     raised to clear the 28px floor (were 20px/16px). */
   .eyebrow {
-    position: absolute; top: 64px; left: 64px; right: 64px;
+    position: absolute; top: 56px; left: 64px; right: 64px;
     display: flex; align-items: center; justify-content: space-between;
     font-family: 'Lato', sans-serif;
-    font-size: 20px; letter-spacing: 0.16em; text-transform: uppercase;
+    font-size: 28px; letter-spacing: 0.14em; text-transform: uppercase;
   }
-  .eyebrow-left { display: flex; align-items: center; gap: 12px; color: rgba(232,224,208,0.6); }
-  .dot { width: 8px; height: 8px; border-radius: 50%; background: #C8A951; box-shadow: 0 0 10px 2px rgba(200,169,81,0.6); }
+  .eyebrow-left { display: flex; align-items: center; gap: 14px; color: rgba(232,224,208,0.6); }
+  .dot { width: 10px; height: 10px; border-radius: 50%; background: #C8A951; box-shadow: 0 0 10px 2px rgba(200,169,81,0.6); }
   .eyebrow-right { color: #C8A951; }
 
-  .body-content {
-    position: absolute; top: 220px; left: 0; right: 0; bottom: 170px;
-    display: flex; flex-direction: column; justify-content: center;
-    padding: 0 64px;
+  /* SLIDES-TYPOGRAPHY-SPEC.md §2: the safe zone. Centered 1080x1080
+     square is y:135-1215, but the operative (tighter) constraint is
+     "nothing critical below y=1150" -- Instagram's caption preview band.
+     top:135 + height:1015 = bottom edge at exactly 1150.
+     width:900 centered satisfies "text column <=900px wide". overflow:
+     hidden is a final safety net; the fit script (below) is what's
+     actually supposed to keep content inside this box. */
+  .safe-zone {
+    position: absolute;
+    top: 135px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 900px;
+    height: 1015px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  /* Feathered contrast panel behind the text column only -- not a flat
+     rectangle (would read as a visible box over the imagery). Radial
+     gradient + generous padding so it fades out before its own edge.
+     Sized to content (safe-zone centers it), not the full safe-zone. */
+  .text-panel {
+    padding: 44px 32px;
+    background: radial-gradient(ellipse 120% 100% at center,
+      rgba(8,8,8,0.60) 0%, rgba(8,8,8,0.42) 45%, rgba(8,8,8,0) 100%);
   }
 
   .headline {
-    font-family: 'Cinzel', serif; font-weight: 600; font-size: 58px; line-height: 1.28;
+    font-family: 'Cinzel', serif; font-weight: 600;
+    font-size: 92px; line-height: 1.28;
     color: #C8A951; text-shadow: 0 0 60px rgba(0,0,0,0.85), 0 0 40px rgba(200,169,81,0.25);
-    margin-bottom: 56px;
+    margin-bottom: 40px;
   }
-  .divider { width: 90px; height: 2px; background: #C8A951; margin-bottom: 40px; opacity: 0.7; }
+  .divider { width: 90px; height: 2px; background: #C8A951; margin-bottom: 32px; opacity: 0.7; }
   .body-text {
-    font-family: 'Lato', sans-serif; font-weight: 400; font-size: 32px; line-height: 1.5;
+    font-family: 'Lato', sans-serif; font-weight: 400;
+    font-size: 52px; line-height: 1.5;
     color: rgba(232,224,208,0.92); text-shadow: 0 2px 12px rgba(0,0,0,0.6);
   }
 
   .footer {
-    position: absolute; bottom: 60px; left: 64px; right: 64px;
+    position: absolute; bottom: 52px; left: 64px; right: 64px;
     display: flex; align-items: center; justify-content: space-between;
-    font-family: 'Lato', sans-serif; font-size: 16px; letter-spacing: 0.1em; text-transform: uppercase;
+    font-family: 'Lato', sans-serif; font-size: 28px; letter-spacing: 0.08em; text-transform: uppercase;
   }
   .source { color: rgba(232,224,208,0.5); }
-  .wordmark { color: #C8A951; font-weight: 700; letter-spacing: 0.2em; }
+  .wordmark { color: #C8A951; font-weight: 700; letter-spacing: 0.18em; }
 </style>
 </head>
 <body>
@@ -81,8 +114,10 @@
     <div class="eyebrow-right">{{INDEX}} / {{TOTAL}}</div>
   </div>
 
-  <div class="body-content">
-    {{BODY}}
+  <div class="safe-zone">
+    <div class="text-panel">
+      {{BODY}}
+    </div>
   </div>
 
   <div class="vignette"></div>
@@ -92,6 +127,107 @@
     <div class="wordmark">The Velatium</div>
   </div>
 </div>
+
+<script>
+/**
+ * SLIDES-TYPOGRAPHY-SPEC.md §1/§2 auto-fit, run client-side (in the
+ * Playwright page) because it needs real DOM/font measurement --
+ * character-counting heuristics in Node can't know actual glyph widths
+ * or wrapping. render.js calls this via page.evaluate() after
+ * document.fonts.ready and asserts on the returned measurements
+ * (spec §4: "do this, don't eyeball").
+ */
+window.__fitSlide = function () {
+  const HEADLINE_MAX = 92, HEADLINE_MIN = 64, HEADLINE_STEP = 2, HEADLINE_LINE_HEIGHT = 1.28;
+  const BODY_MAX = 52, BODY_MIN = 44, BODY_STEP = 2;
+  const SAFE_ZONE_HEIGHT = 1015; // must match .safe-zone { height } above
+
+  const headlineEl = document.querySelector('.headline');
+  const dividerEl = document.querySelector('.divider');
+  const bodyEl = document.querySelector('.body-text');
+  const panelEl = document.querySelector('.text-panel');
+
+  // Weight matters here: check() defaults to weight 400 if omitted, but
+  // .headline is weight 600 (there is no 400 Cinzel declared at all) and
+  // .body-text is weight 400 -- checking the wrong weight reports a false
+  // "not loaded" even when the actually-used weight loaded fine.
+  const fontsOk = {
+    cinzel: document.fonts.check('600 92px Cinzel'),
+    lato: document.fonts.check('400 44px Lato'),
+  };
+
+  // 1. Fit headline: shrink until <=3 lines or floor reached.
+  let headlineSize = HEADLINE_MAX;
+  let headlineLines = 1;
+  for (let size = HEADLINE_MAX; size >= HEADLINE_MIN; size -= HEADLINE_STEP) {
+    headlineEl.style.fontSize = size + 'px';
+    headlineLines = Math.round(headlineEl.scrollHeight / (size * HEADLINE_LINE_HEIGHT));
+    headlineSize = size;
+    if (headlineLines <= 3) break;
+  }
+  const headlineOverflow = headlineLines > 3;
+
+  // 2. Compute what's left for the body after the headline's actual
+  // rendered size + the panel's own padding.
+  const panelStyles = getComputedStyle(panelEl);
+  const panelPaddingV = parseFloat(panelStyles.paddingTop) + parseFloat(panelStyles.paddingBottom);
+  const headlineStyles = getComputedStyle(headlineEl);
+  const headlineBlockHeight = headlineEl.offsetHeight + parseFloat(headlineStyles.marginBottom);
+  const dividerStyles = getComputedStyle(dividerEl);
+  const dividerBlockHeight = dividerEl.offsetHeight + parseFloat(dividerStyles.marginBottom);
+  const availableForBody = SAFE_ZONE_HEIGHT - panelPaddingV - headlineBlockHeight - dividerBlockHeight;
+
+  // 3. Fit body: shrink until it fits or floor reached. Never shrink
+  // past the floor -- if it still overflows at 44px, clip and report it
+  // (spec §1: "do NOT shrink further ... log a warning").
+  bodyEl.style.maxHeight = 'none';
+  bodyEl.style.overflow = 'visible';
+  let bodySize = BODY_MAX;
+  let bodyFits = false;
+  for (let size = BODY_MAX; size >= BODY_MIN; size -= BODY_STEP) {
+    bodyEl.style.fontSize = size + 'px';
+    bodySize = size;
+    if (bodyEl.scrollHeight <= availableForBody) {
+      bodyFits = true;
+      break;
+    }
+  }
+
+  let bodyClipped = false;
+  if (!bodyFits) {
+    bodyEl.style.maxHeight = Math.max(0, availableForBody) + 'px';
+    bodyEl.style.overflow = 'hidden';
+    bodyClipped = true;
+  }
+
+  const headlineRect = headlineEl.getBoundingClientRect();
+  const bodyRect = bodyEl.getBoundingClientRect();
+
+  return {
+    fontsOk,
+    headline: {
+      fontSize: headlineSize,
+      lines: headlineLines,
+      overflow: headlineOverflow,
+      top: headlineRect.top,
+      bottom: headlineRect.bottom,
+    },
+    body: {
+      fontSize: bodySize,
+      clipped: bodyClipped,
+      // scrollHeight keeps reporting the FULL (unclipped) content height
+      // even once max-height+overflow:hidden are applied -- clientHeight
+      // is what's actually visible. Comparing the two is what catches a
+      // silent clip; a bounding-rect check alone would not, because the
+      // rect reflects the already-clamped box.
+      scrollHeight: bodyEl.scrollHeight,
+      clientHeight: bodyEl.clientHeight,
+      top: bodyRect.top,
+      bottom: bodyRect.bottom,
+    },
+  };
+};
+</script>
 
 </body>
 </html>

@@ -1,2 +1,5 @@
 node_modules/
 _temp_slide_*.html
+output/
+test-decks/
+contact-sheet.html
