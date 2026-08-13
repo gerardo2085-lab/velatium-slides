@@ -1,37 +1,38 @@
 {
-  "date": "2026-07-26",
-  "pillar": "lost-civilizations",
-  "topic_title": "The Library That Vanished in a Single Afternoon",
+  "date": "2026-08-13",
+  "pillar": "god-power",
+  "topic_title": "The Church Armenia Put on Trial",
   "slides": [
     {
       "role": "HOOK",
-      "headline": "700,000 scrolls. One afternoon. Zero survivors.",
-      "body": "The Library of Alexandria held the largest collection of knowledge the ancient world had ever assembled — and most of it disappeared so completely that historians still argue over how."
+      "headline": "Armenia Just Put Its Church on Trial",
+      "body": "A Prime Minister ordered the head of a 1,700-year-old church into a courtroom. This is not ancient history. This is this month."
     },
     {
       "role": "CONTEXT",
-      "headline": "Built to hold everything humanity knew",
-      "body": "Founded under the Ptolemies around the 3rd century BC, the library's mandate was total: acquire a copy of every book that existed, in every language, by any means necessary."
+      "headline": "A Church Older Than the State",
+      "body": "The Armenian Apostolic Church has led the nation since 301 AD. Prime Minister Nikol Pashinyan has fought it since 2024."
     },
     {
       "role": "RUPTURE",
-      "headline": "Not one fire. At least four.",
-      "body": "Caesar's war in 48 BC, a 3rd-century civil war, a 4th-century religious purge, and a 7th-century conquest each get blamed — the truth is the collection was gutted in stages, not a single dramatic night."
+      "headline": "Now Its Leader Faces Prison",
+      "body": "Karekin II and six bishops went on trial August 7. One archbishop is already serving two years. Another was arrested for plotting a coup."
     },
     {
       "role": "EVIDENCE",
-      "headline": "We know it existed mostly by its footnotes",
-      "body": "Ancient writers like Strabo and Galen reference works and catalogs that no longer exist anywhere — citations pointing at a void, the closest thing history has to a paper trail for what was lost."
+      "headline": "Twelve Clergy Arrested in One Sweep",
+      "body": "Authorities arrested a bishop and twelve clergymen this year. The Council of Europe assembly called it deep concern over Church repression.",
+      "source": "PACE, August 2026"
     },
     {
       "role": "PATTERN",
-      "headline": "Every empire since has tried to rebuild it",
-      "body": "From the Library of Congress to the Internet Archive, the same impulse recurs: centralize all knowledge in one place — and expose it to the same single point of failure every time."
+      "headline": "Courts Become Weapons Against Dissent",
+      "body": "Defrock a bishop, jail an archbishop, charge a third with plotting a coup - the law bends however power needs, right before an election."
     },
     {
       "role": "CTA",
-      "headline": "The archive always survives the empire that built it — until it doesn't.",
-      "body": "Follow for the histories institutions would rather you forgot."
+      "headline": "Church or State - Who Answers to Whom?",
+      "body": "Armenia votes in 2026. Is this justice for a defrocked bishop, or a government silencing the one institution that can still move a crowd?"
     }
   ]
 }
