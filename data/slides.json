@@ -1,37 +1,38 @@
 {
-  "date": "2026-07-26",
-  "pillar": "lost-civilizations",
-  "topic_title": "The Library That Vanished in a Single Afternoon",
+  "date": "2026-08-14",
+  "pillar": "latin-america",
+  "topic_title": "The Army Knows Where They're Buried",
   "slides": [
     {
       "role": "HOOK",
-      "headline": "700,000 scrolls. One afternoon. Zero survivors.",
-      "body": "The Library of Alexandria held the largest collection of knowledge the ancient world had ever assembled — and most of it disappeared so completely that historians still argue over how."
+      "headline": "The Army Knows Where They're Buried",
+      "body": "Guatemala's military waged war on its own people for 36 years. Its archives on the missing remain sealed."
     },
     {
       "role": "CONTEXT",
-      "headline": "Built to hold everything humanity knew",
-      "body": "Founded under the Ptolemies around the 3rd century BC, the library's mandate was total: acquire a copy of every book that existed, in every language, by any means necessary."
+      "headline": "A 36-Year War on Mayan Villages",
+      "body": "From 1960 to 1996, Guatemala's army fought leftist guerrillas — and massacred Indigenous communities accused of aiding them."
     },
     {
       "role": "RUPTURE",
-      "headline": "Not one fire. At least four.",
-      "body": "Caesar's war in 48 BC, a 3rd-century civil war, a 4th-century religious purge, and a 7th-century conquest each get blamed — the truth is the collection was gutted in stages, not a single dramatic night."
+      "headline": "Peace Came. The Files Stayed Shut.",
+      "body": "The 1996 accords promised truth. Thirty years later, the Armed Forces have never opened their wartime archives."
     },
     {
       "role": "EVIDENCE",
-      "headline": "We know it existed mostly by its footnotes",
-      "body": "Ancient writers like Strabo and Galen reference works and catalogs that no longer exist anywhere — citations pointing at a void, the closest thing history has to a paper trail for what was lost."
+      "headline": "UN Demands the Barracks Open",
+      "body": "In July 2026, UN experts Aua Balde and Ana Lorena Delgadillo Perez urged Guatemala to open every military base and archive.",
+      "source": "UN OHCHR, July 2026"
     },
     {
       "role": "PATTERN",
-      "headline": "Every empire since has tried to rebuild it",
-      "body": "From the Library of Congress to the Internet Archive, the same impulse recurs: centralize all knowledge in one place — and expose it to the same single point of failure every time."
+      "headline": "Mothers Still Dig for Answers",
+      "body": "Forensic teams keep exhuming mass graves. Families search for children taken decades ago, with no state record to guide them."
     },
     {
       "role": "CTA",
-      "headline": "The archive always survives the empire that built it — until it doesn't.",
-      "body": "Follow for the histories institutions would rather you forgot."
+      "headline": "Who Still Protects the Files?",
+      "body": "The generals who fought that war are aging. Every year the archives stay sealed, fewer answers survive with them."
     }
   ]
 }
