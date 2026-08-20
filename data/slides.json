@@ -1,37 +1,38 @@
 {
-  "date": "2026-07-26",
-  "pillar": "lost-civilizations",
-  "topic_title": "The Library That Vanished in a Single Afternoon",
+  "date": "2026-08-20",
+  "pillar": "latin-america",
+  "topic_title": "Thirty Bodies, Dynamited Before Dawn",
   "slides": [
     {
       "role": "HOOK",
-      "headline": "700,000 scrolls. One afternoon. Zero survivors.",
-      "body": "The Library of Alexandria held the largest collection of knowledge the ancient world had ever assembled — and most of it disappeared so completely that historians still argue over how."
+      "headline": "Thirty Bodies, Dynamited Before Dawn",
+      "body": "August 20, 1976. An explosion outside Buenos Aires scattered thirty corpses across a field. The dictatorship called it terrorism."
     },
     {
       "role": "CONTEXT",
-      "headline": "Built to hold everything humanity knew",
-      "body": "Founded under the Ptolemies around the 3rd century BC, the library's mandate was total: acquire a copy of every book that existed, in every language, by any means necessary."
+      "headline": "Five Months Into the Junta",
+      "body": "Jorge Videla seized Argentina in March 1976. Twenty men and ten women were already held inside a Federal Police building."
     },
     {
       "role": "RUPTURE",
-      "headline": "Not one fire. At least four.",
-      "body": "Caesar's war in 48 BC, a 3rd-century civil war, a 4th-century religious purge, and a 7th-century conquest each get blamed — the truth is the collection was gutted in stages, not a single dramatic night."
+      "headline": "Bound, Blindfolded, Shot in the Skull",
+      "body": "Police drove them to Fatima, in Pilar, and shot each from under a meter away. Then they detonated the bodies."
     },
     {
       "role": "EVIDENCE",
-      "headline": "We know it existed mostly by its footnotes",
-      "body": "Ancient writers like Strabo and Galen reference works and catalogs that no longer exist anywhere — citations pointing at a void, the closest thing history has to a paper trail for what was lost."
+      "headline": "The CIA Named the Killers",
+      "body": "A CIA cable reported the thirty were killed under Federal Police detention. Washington knew within five days of the blast.",
+      "source": "National Security Archive, CIA cable, Aug 1976"
     },
     {
       "role": "PATTERN",
-      "headline": "Every empire since has tried to rebuild it",
-      "body": "From the Library of Congress to the Internet Archive, the same impulse recurs: centralize all knowledge in one place — and expose it to the same single point of failure every time."
+      "headline": "Five Still Have No Name",
+      "body": "Forensic anthropologists matched relatives' blood to bone fragments for fifty years. Twenty-five victims now have names. Five are still waiting."
     },
     {
       "role": "CTA",
-      "headline": "The archive always survives the empire that built it — until it doesn't.",
-      "body": "Follow for the histories institutions would rather you forgot."
+      "headline": "Two Convicted. Thirty Executed.",
+      "body": "Only two police commissioners were sentenced to life, in 2008. Thirty people died that night. Who else walked away?"
     }
   ]
 }
