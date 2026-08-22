@@ -1,37 +1,38 @@
 {
-  "date": "2026-07-26",
-  "pillar": "lost-civilizations",
-  "topic_title": "The Library That Vanished in a Single Afternoon",
+  "date": "2026-08-22",
+  "pillar": "god-power",
+  "topic_title": "The Confession Arizona Chose to Protect",
   "slides": [
     {
       "role": "HOOK",
-      "headline": "700,000 scrolls. One afternoon. Zero survivors.",
-      "body": "The Library of Alexandria held the largest collection of knowledge the ancient world had ever assembled — and most of it disappeared so completely that historians still argue over how."
+      "headline": "A Bishop Knew. He Said Nothing.",
+      "body": "Arizona's Supreme Court just ruled he never had to. The church decides what counts as confession — not the law."
     },
     {
       "role": "CONTEXT",
-      "headline": "Built to hold everything humanity knew",
-      "body": "Founded under the Ptolemies around the 3rd century BC, the library's mandate was total: acquire a copy of every book that existed, in every language, by any means necessary."
+      "headline": "Bisbee, 2011: A Father Confesses",
+      "body": "Paul Adams, a Border Patrol agent, told his LDS bishop he was abusing his 5-year-old daughter. Bishop John Herrod stayed silent."
     },
     {
       "role": "RUPTURE",
-      "headline": "Not one fire. At least four.",
-      "body": "Caesar's war in 48 BC, a 3rd-century civil war, a 4th-century religious purge, and a 7th-century conquest each get blamed — the truth is the collection was gutted in stages, not a single dramatic night."
+      "headline": "He Confessed Again. And Again.",
+      "body": "2012, 2013: Adams repeated the confession to church leaders. In 2013 bishops excommunicated him and still called no police."
     },
     {
       "role": "EVIDENCE",
-      "headline": "We know it existed mostly by its footnotes",
-      "body": "Ancient writers like Strabo and Galen reference works and catalogs that no longer exist anywhere — citations pointing at a void, the closest thing history has to a paper trail for what was lost."
+      "headline": "Homeland Security Found Her First",
+      "body": "Abuse lasted six years before a 2017 federal investigation exposed it — the church had known since 2011.",
+      "source": "AP; Ariz. Supreme Court, Jul 2026"
     },
     {
       "role": "PATTERN",
-      "headline": "Every empire since has tried to rebuild it",
-      "body": "From the Library of Congress to the Internet Archive, the same impulse recurs: centralize all knowledge in one place — and expose it to the same single point of failure every time."
+      "headline": "The Law Lets Faith Decide",
+      "body": "Arizona's court ruled churches, not judges, define what counts as a protected confession. Thirty states still shield clergy this way."
     },
     {
       "role": "CTA",
-      "headline": "The archive always survives the empire that built it — until it doesn't.",
-      "body": "Follow for the histories institutions would rather you forgot."
+      "headline": "Whose Silence Does the Law Protect?",
+      "body": "A father confessed three times. Every time, the church chose secrecy over a child. The court just called that legal."
     }
   ]
 }
