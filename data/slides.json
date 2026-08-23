@@ -1,37 +1,38 @@
 {
-  "date": "2026-07-26",
-  "pillar": "lost-civilizations",
-  "topic_title": "The Library That Vanished in a Single Afternoon",
+  "date": "2026-08-23",
+  "pillar": "forbidden-history",
+  "topic_title": "The Secret Pact That Carved Up Europe",
   "slides": [
     {
       "role": "HOOK",
-      "headline": "700,000 scrolls. One afternoon. Zero survivors.",
-      "body": "The Library of Alexandria held the largest collection of knowledge the ancient world had ever assembled — and most of it disappeared so completely that historians still argue over how."
+      "headline": "Hitler and Stalin Secretly Split Europe",
+      "body": "In 1939, two dictators signed a public peace deal — and a hidden map dividing Poland and the Baltics between them."
     },
     {
       "role": "CONTEXT",
-      "headline": "Built to hold everything humanity knew",
-      "body": "Founded under the Ptolemies around the 3rd century BC, the library's mandate was total: acquire a copy of every book that existed, in every language, by any means necessary."
+      "headline": "Moscow, August 1939",
+      "body": "Nazi Germany and the Soviet Union signed a non-aggression pact days before invading Poland — publicly, a promise of peace."
     },
     {
       "role": "RUPTURE",
-      "headline": "Not one fire. At least four.",
-      "body": "Caesar's war in 48 BC, a 3rd-century civil war, a 4th-century religious purge, and a 7th-century conquest each get blamed — the truth is the collection was gutted in stages, not a single dramatic night."
+      "headline": "A Secret Clause Divided Two Nations",
+      "body": "Behind closed doors, Molotov and Ribbentrop signed a secret protocol carving Poland and the Baltic states between Berlin and Moscow."
     },
     {
       "role": "EVIDENCE",
-      "headline": "We know it existed mostly by its footnotes",
-      "body": "Ancient writers like Strabo and Galen reference works and catalogs that no longer exist anywhere — citations pointing at a void, the closest thing history has to a paper trail for what was lost."
+      "headline": "The USSR Denied It for 50 Years",
+      "body": "Moscow called the protocol a forgery until 1989, when its own Congress admitted the document was real — and void from the start.",
+      "source": "USSR Congress of People's Deputies, Dec 1989"
     },
     {
       "role": "PATTERN",
-      "headline": "Every empire since has tried to rebuild it",
-      "body": "From the Library of Congress to the Internet Archive, the same impulse recurs: centralize all knowledge in one place — and expose it to the same single point of failure every time."
+      "headline": "Great Powers Trade Nations Like Currency",
+      "body": "Two regimes shook hands in public and carved up sovereign countries in private. The people living there were never asked."
     },
     {
       "role": "CTA",
-      "headline": "The archive always survives the empire that built it — until it doesn't.",
-      "body": "Follow for the histories institutions would rather you forgot."
+      "headline": "What Other Peace Deals Hide a Map?",
+      "body": "One secret line on a map decided the fate of millions before a single shot was fired. How many maps are still hidden?"
     }
   ]
 }
