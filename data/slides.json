@@ -1,37 +1,13 @@
 {
-  "date": "2026-07-26",
-  "pillar": "lost-civilizations",
-  "topic_title": "The Library That Vanished in a Single Afternoon",
+  "date": "2026-08-25",
+  "pillar": "latin-america",
+  "topic_title": "Britain Invented Uruguay's Independence",
   "slides": [
-    {
-      "role": "HOOK",
-      "headline": "700,000 scrolls. One afternoon. Zero survivors.",
-      "body": "The Library of Alexandria held the largest collection of knowledge the ancient world had ever assembled — and most of it disappeared so completely that historians still argue over how."
-    },
-    {
-      "role": "CONTEXT",
-      "headline": "Built to hold everything humanity knew",
-      "body": "Founded under the Ptolemies around the 3rd century BC, the library's mandate was total: acquire a copy of every book that existed, in every language, by any means necessary."
-    },
-    {
-      "role": "RUPTURE",
-      "headline": "Not one fire. At least four.",
-      "body": "Caesar's war in 48 BC, a 3rd-century civil war, a 4th-century religious purge, and a 7th-century conquest each get blamed — the truth is the collection was gutted in stages, not a single dramatic night."
-    },
-    {
-      "role": "EVIDENCE",
-      "headline": "We know it existed mostly by its footnotes",
-      "body": "Ancient writers like Strabo and Galen reference works and catalogs that no longer exist anywhere — citations pointing at a void, the closest thing history has to a paper trail for what was lost."
-    },
-    {
-      "role": "PATTERN",
-      "headline": "Every empire since has tried to rebuild it",
-      "body": "From the Library of Congress to the Internet Archive, the same impulse recurs: centralize all knowledge in one place — and expose it to the same single point of failure every time."
-    },
-    {
-      "role": "CTA",
-      "headline": "The archive always survives the empire that built it — until it doesn't.",
-      "body": "Follow for the histories institutions would rather you forgot."
-    }
+    {"role":"HOOK","headline":"Uruguay's Founding Fathers Weren't The Real Authors","body":"Thirty-three rebels declared freedom in 1825. A British diplomat in London decided the borders three years later."},
+    {"role":"CONTEXT","headline":"Thirty-Three Men Crossed a River","body":"April 1825: Juan Antonio Lavalleja led 33 rebels into Brazilian-ruled Banda Oriental, today's Uruguay, to fight for independence."},
+    {"role":"RUPTURE","headline":"Then a Foreign Empire Stepped In","body":"Three years of war bled Argentina and Brazil dry. Britain's blockade-choked trade forced both sides to accept a mediator: London."},
+    {"role":"EVIDENCE","headline":"London Wrote the Borders, Not Rebels","body":"British envoy Lord Ponsonby brokered the 1828 Treaty of Montevideo, carving Uruguay out to keep the Río de la Plata trade open.","source":"Preliminary Peace Convention, Aug 1828"},
+    {"role":"PATTERN","headline":"Soldiers Died So Britain Kept Its Trade","body":"Thousands fought and died in the Cisplatine War. The peace that ended it protected British merchants, not Uruguayan self-rule."},
+    {"role":"CTA","headline":"Was Uruguay Born Free, or Built?","body":"Every August 25, Uruguay celebrates independence. Few ask who really decided where the borders — and the profits — would fall."}
   ]
 }
