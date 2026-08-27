@@ -1,37 +1,38 @@
 {
-  "date": "2026-07-26",
-  "pillar": "lost-civilizations",
-  "topic_title": "The Library That Vanished in a Single Afternoon",
+  "date": "2026-08-27",
+  "pillar": "forbidden-history",
+  "topic_title": "The 38-Minute War That Killed 500 People",
   "slides": [
     {
       "role": "HOOK",
-      "headline": "700,000 scrolls. One afternoon. Zero survivors.",
-      "body": "The Library of Alexandria held the largest collection of knowledge the ancient world had ever assembled — and most of it disappeared so completely that historians still argue over how."
+      "headline": "History's Shortest War Killed 500 People",
+      "body": "Britain calls it a 38-minute trivia record. Zanzibar counts roughly 500 dead in the rubble of a burned palace."
     },
     {
       "role": "CONTEXT",
-      "headline": "Built to hold everything humanity knew",
-      "body": "Founded under the Ptolemies around the 3rd century BC, the library's mandate was total: acquire a copy of every book that existed, in every language, by any means necessary."
+      "headline": "A Treaty Zanzibar Never Agreed To",
+      "body": "An 1886 pact let Britain approve every Zanzibari sultan. In 1896, Khalid bin Barghash took the throne without asking."
     },
     {
       "role": "RUPTURE",
-      "headline": "Not one fire. At least four.",
-      "body": "Caesar's war in 48 BC, a 3rd-century civil war, a 4th-century religious purge, and a 7th-century conquest each get blamed — the truth is the collection was gutted in stages, not a single dramatic night."
+      "headline": "The Royal Navy Opens Fire at 9:02",
+      "body": "Five British warships shelled the sultan's palace for 38 minutes straight, reducing it to splinters and burying whoever was still inside."
     },
     {
       "role": "EVIDENCE",
-      "headline": "We know it existed mostly by its footnotes",
-      "body": "Ancient writers like Strabo and Galen reference works and catalogs that no longer exist anywhere — citations pointing at a void, the closest thing history has to a paper trail for what was lost."
+      "headline": "About 500 Zanzibaris Died in Minutes",
+      "body": "The Royal Navy logged one British sailor injured. Historians estimate roughly 500 Zanzibaris killed or wounded in the same 38 minutes.",
+      "source": "Naval History and Heritage Command"
     },
     {
       "role": "PATTERN",
-      "headline": "Every empire since has tried to rebuild it",
-      "body": "From the Library of Congress to the Internet Archive, the same impulse recurs: centralize all knowledge in one place — and expose it to the same single point of failure every time."
+      "headline": "Empires Turn Massacres Into Trivia",
+      "body": "Call it the shortest war and the deaths disappear into a punchline. The record survives; the 500 dead do not get named."
     },
     {
       "role": "CTA",
-      "headline": "The archive always survives the empire that built it — until it doesn't.",
-      "body": "Follow for the histories institutions would rather you forgot."
+      "headline": "Whose War Gets Remembered as a Joke?",
+      "body": "Britain still holds the world record for its shortest war. Zanzibar has never gotten an apology for its longest one."
     }
   ]
 }
