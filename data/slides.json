@@ -1,37 +1,38 @@
 {
-  "date": "2026-07-26",
+  "date": "2026-09-10",
   "pillar": "lost-civilizations",
-  "topic_title": "The Library That Vanished in a Single Afternoon",
+  "topic_title": "The Skull Britain Wrote a Law to Keep",
   "slides": [
     {
       "role": "HOOK",
-      "headline": "700,000 scrolls. One afternoon. Zero survivors.",
-      "body": "The Library of Alexandria held the largest collection of knowledge the ancient world had ever assembled — and most of it disappeared so completely that historians still argue over how."
+      "headline": "Africa's Oldest Human Skull Lives in London",
+      "body": "Kabwe Man is 300,000 years old, found in Zambia. He has spent 105 years locked in a British museum drawer."
     },
     {
       "role": "CONTEXT",
-      "headline": "Built to hold everything humanity knew",
-      "body": "Founded under the Ptolemies around the 3rd century BC, the library's mandate was total: acquire a copy of every book that existed, in every language, by any means necessary."
+      "headline": "A Mine, A Skull, A Shipment",
+      "body": "1921: miners at Broken Hill, Northern Rhodesia, struck the skull. The Rhodesia Broken Hill Mine Company shipped it straight to London that same year."
     },
     {
       "role": "RUPTURE",
-      "headline": "Not one fire. At least four.",
-      "body": "Caesar's war in 48 BC, a 3rd-century civil war, a 4th-century religious purge, and a 7th-century conquest each get blamed — the truth is the collection was gutted in stages, not a single dramatic night."
+      "headline": "Zambia Asked. Britain Said No.",
+      "body": "In 1972, Zambia's government formally demanded the skull back, calling it vital to its history. Britain has refused every request since."
     },
     {
       "role": "EVIDENCE",
-      "headline": "We know it existed mostly by its footnotes",
-      "body": "Ancient writers like Strabo and Galen reference works and catalogs that no longer exist anywhere — citations pointing at a void, the closest thing history has to a paper trail for what was lost."
+      "headline": "The Law Written to Keep It",
+      "body": "UK deaccession law exempts human remains only if under 1,000 years old. The skull is 300,000. It cannot legally leave.",
+      "source": "UK National Heritage Act, 2005"
     },
     {
       "role": "PATTERN",
-      "headline": "Every empire since has tried to rebuild it",
-      "body": "From the Library of Congress to the Internet Archive, the same impulse recurs: centralize all knowledge in one place — and expose it to the same single point of failure every time."
+      "headline": "The Loophole Empire Wrote Itself",
+      "body": "Colonial law rarely bans return outright. It just defines the terms narrowly enough that nothing taken ever legally qualifies to go home."
     },
     {
       "role": "CTA",
-      "headline": "The archive always survives the empire that built it — until it doesn't.",
-      "body": "Follow for the histories institutions would rather you forgot."
+      "headline": "Whose Ancestor Gets to Decide?",
+      "body": "UNESCO ruled for Zambia in 2024. London still has the final say. What would it take to change that?"
     }
   ]
 }
